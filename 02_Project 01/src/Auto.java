@@ -34,9 +34,14 @@ public class Auto {
 
     // Przykładowe użycie
     public static void main(String[] args) {
-        Auto mojeAuto = new Auto("Toyota", "Corolla", 2020, 50000);
-        mojeAuto.info();
-        mojeAuto.jedz();
-        mojeAuto.hamuj();
+        Auto toyota = new Auto("Toyota", "Corolla", 2020, 50000);
+        toyota.info();
+        toyota.jedz();
+        toyota.hamuj();
+
+        Auto mercedes = new Auto("Mercedes", "AMG", 2050, 50);
+        mercedes.info();
+        mercedes.jedz();
+        mercedes.hamuj();
     }
 }
