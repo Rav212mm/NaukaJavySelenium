@@ -1,6 +1,6 @@
 public class Metody {
 
-    // Metoda bez parametrów
+       // Metoda bez parametrów
     public void powitaj() {
         System.out.println("Witaj użytkowniku!");
     }
