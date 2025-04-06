@@ -1,7 +1,7 @@
 public class IphoneApp extends App {
 
     public IphoneApp(String name) {
-        super(name); // wywołanie konstruktora klasy bazowej
+        super(name);
     }
 
     public void runIphoneApp() {

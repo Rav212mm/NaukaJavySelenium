@@ -1,7 +1,7 @@
 public class AndroidApp extends App {
 
     public AndroidApp(String name) {
-        super(name); // wywołanie konstruktora klasy bazowej
+        super(name);
     }
 
     public void runAndroidApp() {
