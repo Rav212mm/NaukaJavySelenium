@@ -4,6 +4,7 @@ public class FirefoxDriver implements WebDriver {
     /**
      * Implementacja metody get() dla FirefoxDriver.
      * Nawiguje do podanego adresu URL w przeglądarce Firefox.
+     *
      * @param url Adres URL strony do załadowania.
      */
     @Override
@@ -15,6 +16,7 @@ public class FirefoxDriver implements WebDriver {
     /**
      * Implementacja metody findElement() dla FirefoxDriver.
      * Znajduje element przy użyciu podanego lokalizatora w przeglądarce Firefox.
+     *
      * @param locator Lokalizator elementu.
      */
     @Override

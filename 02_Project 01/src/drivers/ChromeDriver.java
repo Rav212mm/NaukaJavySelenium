@@ -4,6 +4,7 @@ public class ChromeDriver implements WebDriver {
     /**
      * Implementacja metody get() dla ChromeDriver.
      * Nawiguje do podanego adresu URL w przeglądarce Chrome.
+     *
      * @param url Adres URL strony do załadowania.
      */
     @Override
@@ -15,6 +16,7 @@ public class ChromeDriver implements WebDriver {
     /**
      * Implementacja metody findElement() dla ChromeDriver.
      * Znajduje element przy użyciu podanego lokalizatora w przeglądarce Chrome.
+     *
      * @param locator Lokalizator elementu.
      */
     @Override
